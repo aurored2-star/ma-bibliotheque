@@ -1,0 +1,84 @@
+body {
+    background-color: #eeede9;
+    font-family: "DM Sans", sans-serif;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+.number {
+    font-family: "DM Sans", sans-serif;
+}
+
+
+.stats {
+    font-size: medium;
+    color: #6b6b67;
+}
+
+
+input {
+    padding-left: 2%;
+    border: 1px solid #b4b4aa;
+
+}
+
+
+nav :hover {
+    font-size: 150%;
+    color: black;
+    background-color: #A0B4F4;
+}
+
+
+section {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    justify-content: center;
+    text-transform: capitalize;
+}
+
+
+article {
+    border-radius: 15px;
+    background-color: #f1f1f1;
+    border: 1px solid #6b6b67;
+}
+
+
+article p {
+    color: #6b6b67;
+}
+
+
+p.statistique {
+    color: black;
+}
+
+
+div {
+    border-radius: 15px;
+    background-color: #F5F5F3;
+}
+
+
+h2,
+h4 {
+    font-family: "Playfair Display", serif;
+}
+
+
+h4{color: #1a2a6c;}
+
+
+nav p {
+    border-radius: 15px;
+    border: 1px solid #6b6b67;
+    cursor: pointer;
+}
+
+
+.livre8 h4 {
+    font-size: clamp(14px, 15px, 18px);
+}

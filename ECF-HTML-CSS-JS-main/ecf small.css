@@ -1,0 +1,129 @@
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width:768px) {
+
+
+    header {
+        font-size: 20px;
+        margin: 20px;
+    }
+
+
+    header p {
+        color: #6b6b67;
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+
+    aside {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        margin-left: 2%;
+        margin-right: 10px;
+        margin-top: 7%;
+        margin-bottom: 5%;
+    }
+
+
+    aside div {
+        text-align: left;
+        padding-left: 20px;
+        border: none;
+    }
+
+
+    div p {
+        font-size: 30px;
+    }
+
+
+    h6 {
+        color: #6b6b67;
+        font-size: small;
+    }
+
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        width: 99%;
+        margin-left: 10px;
+        margin-bottom: 30px;
+    }
+
+
+    nav input {
+        height: 40px;
+        width: 95%;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        margin-left: 5px;
+        background-color: white;
+        font-size: 18px;
+    }
+
+
+    nav p {
+        margin: 5px;
+        padding: 12px 30px;
+        margin-top: 5px;
+        font-size: 16px;
+        color: #6b6b67;
+    }
+
+
+    #tous {
+        background: black;
+        color: white;
+
+    }
+
+
+    section {
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 100%;
+    }
+
+
+    article {
+        background: linear-gradient(#A0B4F4 200px, white 0);
+        padding-top: 150px;
+        width: 45vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+    h4,
+    article p {
+        margin: 5%;
+        margin-top: 10px;
+    }
+
+
+    .genre {
+        border-radius: 10px;
+        background-color: #f1f1f1;
+        padding: 7px;
+    }
+
+
+    .statistique {
+        border-radius: 10px;
+        background-color: #A0B4F4;
+        padding: 7px;
+    }
+
+
+    .genre,
+    .statistique {
+        display: block;
+        width: fit-content;
+        padding: 7px 12px;
+        border-radius: 10px;
+        margin-bottom: 8px;
+    }
+}
